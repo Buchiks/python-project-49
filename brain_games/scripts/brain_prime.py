@@ -1,6 +1,5 @@
-import random
-
 import math
+import random
 
 from brain_games import logic, welcome_user1
 
