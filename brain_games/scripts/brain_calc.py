@@ -15,7 +15,7 @@ def main():
     rounds = 3
     for round in range(rounds):
         x = random.randint(1, 100)
-        y = random.randint(1,100)
+        y = random.randint(1, 100)
         operator = random.choice(operators)
         task = f"{x} {operator} {y}"
         correct_ans = str(operations[operator](x, y))
