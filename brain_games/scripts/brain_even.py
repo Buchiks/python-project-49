@@ -1,6 +1,6 @@
-from brain_games import logic, welcome_user1
-
 import random
+
+from brain_games import logic, welcome_user1
 
 
 def main():

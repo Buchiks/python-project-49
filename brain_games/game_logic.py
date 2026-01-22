@@ -1,6 +1,6 @@
-import prompt
-
 import sys
+
+import prompt
 
 
 def logic(task, correct_ans, name):
