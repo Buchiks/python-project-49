@@ -19,12 +19,12 @@ def even():
             print("Correct!")
             n += 1
         else:
-            n = 0
             if number % 2 == 0:
-                print(f"'{ans}' is wrong answer ;(. Correct answer was 'yes'."
+                print(f"'{ans}' is wrong answer ;(. Correct answer was 'yes'.\n"
                 f"Let's try again, {name}!")
             else:
-                print(f"'{ans}' is wrong answer ;(. Correct answer was 'no'."
+                print(f"'{ans}' is wrong answer ;(. Correct answer was 'no'.\n"
                 f"Let's try again, {name}!")
+            return
     print(f"Congratulations, {name}!")
     
