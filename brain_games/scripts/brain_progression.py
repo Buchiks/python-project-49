@@ -14,6 +14,7 @@ def progression():
 
 def main():
     name = welcome_user1()
+    print("What number is missing in the progression?")
     rounds = 3
     for round in range(rounds):
         prog = progression()

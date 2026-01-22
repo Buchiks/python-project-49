@@ -5,6 +5,7 @@ from brain_games import logic, welcome_user1
 
 def main():
     name = welcome_user1()
+    print("Find the greatest common divisor of given numbers.")
     rounds = 3
     for round in range(rounds):
         x = random.randint(0, 100)
