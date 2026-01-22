@@ -1,3 +1,3 @@
 from .Awelcome import welcome_user1
-from .brain_even_logic import even
+from .game_logic import logic
 from .cli import welcome_user
